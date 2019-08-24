@@ -1,6 +1,9 @@
 // $(document).ready(function() {
 //   $(this).scrollTop(0);
 // })
+$(document).ready(function(){
+  
+})
 function scrollDown(element,num){
   $('html,body').animate({
     scrollTop: $('#' + element).offset().top - num
